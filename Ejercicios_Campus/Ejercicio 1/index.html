@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador de Viajes</title>
+</head>
+<body>
+
+    <h1>Planificador de Viajes</h1>
+    <form id="formulario">
+        <label for="destino">Destino:</label>
+        <select id="destino" name="destino">
+            <option value="2000">Londres</option>
+            <option value="500">París</option>
+            <option value="1500">Roma</option>
+            <option value="3000">New York</option>
+            <option value="2500">Tokio</option>
+            <option value="3000">Sidney</option>
+            <option value="1000">Seúl</option>
+        </select>
+        <br>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+        <br>
+        <label for="transporte">transporte</label>
+        <select id="transporte" name="transporte">
+            <option value="1000">Avión</option>
+            <option value="250">Autobús</option>
+            <option value="500">Tren</option>
+        </select>
+        <br>
+        <button type="submit">Agregar</button>
+    </form>
+    <h2>Itinerario</h2>
+    <div id="itinerario">
+
+    </div>
+    <script src="RegistrarDestinos.js" type="module"></script>
+    
+</body>
+</html>

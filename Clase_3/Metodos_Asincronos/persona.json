@@ -1,0 +1,12 @@
+{
+    "nombre": "Ivan",
+    "apellido": "Gutierrez",
+    "altura": 1.65,
+    "mayorDeEdad": true,
+    "mascota": ["Luna", "Toby"],
+    "universidad": {
+        "nombre": "UTN",
+        "carrera": "Desarrollo Web",
+        "anio": 2022
+    }
+}
